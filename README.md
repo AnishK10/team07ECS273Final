@@ -15,9 +15,14 @@ nyc-taxi-demand-predictor/
 ├── README.md
 ```
 
+## Data Source
+
+This project uses publicly available NYC taxi trip data provided by the New York City Taxi and Limousine Commission (TLC):  
+🔗 [NYC TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+
 ---
 
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/your-username/nyc-taxi-demand-predictor.git
@@ -77,6 +82,10 @@ npm run dev
 - Time-series demand chart per selected zone
 - User location detection and zoom
 - FastAPI-based scalable prediction endpoint
+
+## Disclaimer
+
+Parts of this project involved the use of AI tools strictly for code refinement, clarification, and debugging — not for original code generation.
 
 ---
 
