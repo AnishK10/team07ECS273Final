@@ -66,7 +66,7 @@ export default function MapView({ selectedZone, setSelectedZone, predictionData,
             .style('visibility', 'visible')
             .html(
               `<strong>${info?.zoneName || 'Zone ' + zoneId}</strong><br/>
-               Demand: ${info?.demand ?? 'N/A'}<br/>
+               Demand: ${info?.demand !== undefined ? Math.round(info.demand) : 'N/A'}<br/>
                Borough: ${info?.borough ?? 'Unknown'}`
             );
           d3.select(this).attr('opacity', 1);

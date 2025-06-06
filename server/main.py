@@ -36,7 +36,7 @@ class CoordRequest(BaseModel):
 
 @app.get("/")
 def home():
-    return {"message": "🚕 NYC Taxi Demand Prediction API is live!"}
+    return {"message": " NYC Taxi Demand Prediction API is live!"}
 
 @app.post("/predict_by_coordinates")
 def predict_by_coordinates(req: CoordRequest):
